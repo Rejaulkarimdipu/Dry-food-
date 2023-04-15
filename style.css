@@ -87,7 +87,7 @@ ul li a:hover{
 }
         /* section-slider-strat */
       .section-img{
-          background-image:url(img/section-bg.jpg) ;
+          background-image:url(section-bg.jpg) ;
           background-repeat:no-repeat ;
           background-size:cover;
           height: 400px;
@@ -201,7 +201,7 @@ ul li a:hover{
          /*  img-bg-2-strat  */
          
           .section-img2{
-          background-image:url(img/peanut-bowl.png) ;
+          background-image:url(peanut-bowl.png) ;
           background-repeat:no-repeat ;
           background-size:cover;
           height: 400px;
