@@ -1,0 +1,174 @@
+/* =========== */
+
+@media screen and (max-width: 768px) {
+  .header_container {
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    grid-gap: 10px;
+  }
+  .header_body_container {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-content: start;
+  }
+
+  .content_search_fild {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .all_category,
+  .search_fild,
+  .search_btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .content_icon_box {
+    flex-direction: column;
+    margin: 15px 0;
+    font-size: 1.2em;
+  }
+  .content_icon_box .hedar-body-link {
+    margin: 10px 0;
+  }
+
+  .container_header-bottom .nav {
+    flex-flow: column wrap;
+  }
+  /* ===== hover effect ===== */
+
+  .container_header-bottom .nav li {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  .container_header-bottom .nav li:first-child {
+    opacity: 1;
+    max-height: 100px;
+  }
+  .container_header-bottom .nav:hover li {
+    max-height: 100px;
+    opacity: 1;
+  }
+
+  /* ===== bg section ==== */
+  .section_bg_img {
+    background-size: 100% 60%;
+    height: 250px;
+  }
+
+  .section_bg_img::after {
+    height: 250px;
+  }
+
+  .section_bg_img .bg_img_title {
+    height: 250px;
+  }
+
+  .section_bg_img .bg_img_title h1 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  .section_bg_img .bg_img_title .cnt_btn {
+    padding: 0.5em 1.5em;
+    font-weight: 400;
+  }
+
+  .food_product_section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .food_product_section .card_box p {
+    margin: 10px 0;
+  }
+
+  .choice_food_section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+  }
+  .section_bg_img_2 {
+    background-size: 100% 60%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: -40px;
+  }
+
+  .section_bg_img_2::after {
+    height: 150px;
+  }
+
+  .section_bg_img_2 .bg_img_title_2 {
+    height: 150px;
+  }
+  .section_bg_img_2 .bg_img_title_2 h3 {
+    font-size: 1em;
+  }
+  .section_bg_img_2 .bg_img_title_2 p {
+    padding: 0 1em;
+    margin: 5px 0;
+    font-size: 10px;
+  }
+  .rsp_css_btn {
+    padding: 5px 10px;
+  }
+
+  .latest_news_section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 0;
+  }
+
+  .khajur_info_content,
+  .kissmiss_img_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .latest_news_section .img_box_item {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .kissmiss_img_content .img_info {
+    order: 1;
+  }
+
+  .customer_section {
+    grid-template-columns: 1fr;
+  }
+
+  .customer_section .women_content {
+    margin-bottom: 20px;
+  }
+
+  .get_in_touch_section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  /* === input focus effect ==== */
+
+  .input_content .input_box input:focus ~ label {
+    top: -9px;
+  }
+
+  /* ====== footer ==== */
+
+  .footer_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 20px 15px;
+    margin-top: 20px;
+  }
+  .footer_first_content {
+    width: 100%;
+  }
+  .footer_first_content .input_box {
+    width: 100%;
+  }
+}
